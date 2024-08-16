@@ -1,3 +1,11 @@
+.header{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .mask{
-    
+    -webkit-mask-image: url("./Images/Background.png");
+    mask-image: url("./Images/Background.png");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;  
 }
